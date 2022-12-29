@@ -3,12 +3,9 @@
 <suite name="All Test Suite">
     <test name="Reqres Tests">
         <classes>
-            <class name="tests.ReqresTest">
-                <methods>
-                    <include name="avatarNameContainsIdTest"/>
-                    <include name="emailEndsWithReqresDotInTest"/>
-                </methods>
-            </class>
+            <class name="tests.ListUsersTest"/>
+            <class name="tests.RegisterTest"/>
+            <class name="tests.ListResourceTest"/>
         </classes>
     </test>
 </suite>

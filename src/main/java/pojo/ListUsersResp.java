@@ -1,10 +1,11 @@
 package pojo;
 
-public class ListUsersData {
+public class ListUsersResp {
     private Integer id;
     private String email;
     private String first_name;
     private String last_name;
+    private String avatar;
 
     public Integer getId() {
         return id;
@@ -46,5 +47,4 @@ public class ListUsersData {
         this.avatar = avatar;
     }
 
-    private String avatar;
 }
