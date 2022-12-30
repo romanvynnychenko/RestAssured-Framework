@@ -2,7 +2,8 @@
 
 https://reqres.in/
 
-###Test 1: All avatar names contains ID
+##Test 1: All avatar names contains ID
+
 Path - src/test/java/tests/ListUsersTest
 Test - avatarNameContainsIdTest()
 
